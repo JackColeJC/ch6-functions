@@ -2,13 +2,13 @@
 
 # Write a function `AddThree` that adds 3 to an input value
 
-AddThree <- function(num1, num2, num3) {
-  return (num1 + num2 + num3)
+AddThree <- function(num) {
+  return (num + 3)
 }
 
 # Create a variable `ten` by passing 7 to your `AddThree` function
 
-ten <- AddThree(7,2,1)
+ten <- AddThree(7)
 
 # Write a function `FeetToMeters` that converts from feet to meters
 
